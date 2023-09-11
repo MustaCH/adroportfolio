@@ -46,3 +46,22 @@
     transform: translateX(-10%) rotate(5deg);
   }
 }
+
+#capsule-2-container:hover .box {
+  animation: shake 1s ease-in-out infinite;
+  -webkit-animation: shake 0.5s ease-in-out infinite;
+}
+
+@keyframes shake {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+    -webkit-transform: translateY(-5px);
+    -moz-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    -o-transform: translateY(-5px);
+  }
+}
