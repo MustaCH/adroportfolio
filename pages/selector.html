@@ -9,11 +9,12 @@
       href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="../styles.css" />
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Adriano Zuccarelli - UX/UI</title>
   </head>
   <body class="font-['Comfortaa'] bg-[#F5F5F5]">
-    <main>
+    <main class="min-h-screen">
       <div class="p-6 relative">
         <!--BUBBLES-BOTTOM-LEFT-->
         <svg
@@ -142,10 +143,14 @@
                     fill="black"
                   />
                 </svg>
-                <p class="text-lg font-bold absolute top-56 right-24 z-30">
+                <p
+                  class="text-lg font-bold absolute top-56 right-24 z-30 float"
+                >
                   UI
                 </p>
-                <p class="text-lg font-bold absolute bottom-56 right-40 z-30">
+                <p
+                  class="text-lg font-bold absolute bottom-56 right-40 z-30 float"
+                >
                   UX
                 </p>
                 <svg
@@ -202,7 +207,7 @@
                 </svg>
                 <svg
                   id="boat"
-                  class="absolute top-52 left-6 z-20"
+                  class="absolute top-52 left-6 z-20 sway"
                   width="57"
                   height="47"
                   viewBox="0 0 57 47"
@@ -267,7 +272,7 @@
                 </svg>
                 <svg
                   id="glacier"
-                  class="absolute top-44 right-2 z-10 group-hover:animate-bounce"
+                  class="absolute top-44 right-2 z-10 float"
                   width="310"
                   height="378"
                   viewBox="0 0 310 378"
@@ -656,6 +661,7 @@
             </div>
           </a>
         </div>
+        <!--BUBBLES-TOP-RIGHT-->
         <svg
           class="absolute right-28 top-6"
           width="198"
