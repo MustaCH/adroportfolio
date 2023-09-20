@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="../styles.css" />
     <link rel="shortcut icon" href="../img/favicon.png" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="../main.js"></script>
     <title>Adriano Zuccarelli - UX/UI</title>
   </head>
   <body class="font-['Comfortaa'] bg-[#F5F5F5] overflow-y-hidden">
@@ -93,12 +95,15 @@
           />
         </svg>
         <div>
-          <h3 class="text-3xl mt-6 text-[#5C5C5C] font-bold">
+          <h3
+            class="text-3xl mt-6 text-[#5C5C5C] font-bold fade-up"
+            data-duration="2000"
+          >
             Te puedo ofrecer... por ahora
           </h3>
         </div>
         <div class="flex justify-center gap-52">
-          <a class="group" href="./projects.html">
+          <a class="group fade-up" href="./projects.html" data-duration="1000">
             <div
               class="relative flex pt-24 flex-col justify-center items-center"
             >
@@ -358,7 +363,11 @@
             </div>
           </a>
           <!--CAPSULE 2-->
-          <a class="group" href="./illustrations.html">
+          <a
+            class="group fade-up"
+            href="./illustrations.html"
+            data-duration="1500"
+          >
             <div
               class="relative flex pt-24 flex-col justify-center items-center"
             >
