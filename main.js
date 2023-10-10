@@ -1,4 +1,14 @@
 $(document).ready(function () {
+  let elemento = $("#go-top");
+
+  $(window).scroll(function () {
+    if ($(this).scrollTop() >= 500) {
+      elemento.fadeIn();
+    } else {
+      elemento.fadeOut();
+    }
+  });
+
   let popupFlags = $(".popup-flag");
 
   function popUp(i) {
